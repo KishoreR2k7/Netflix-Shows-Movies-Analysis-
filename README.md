@@ -1,6 +1,6 @@
 #Netflix Shows & Movies Analysis:
 #*Part 1 – Basic Data Understanding (Pandas)*
-#**Load the CSV file into a Pandas DataFrame.
+Load the CSV file into a Pandas DataFrame.
 **Display the first 10 rows of the dataset.(df.head(10))
 **Show the shape, column names, and data types.
 **Use .describe() for numerical and categorical columns.
