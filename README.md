@@ -1,10 +1,10 @@
-#Netflix Shows & Movies Analysis:
+# Netflix Shows & Movies Analysis:
 
 
-#*Part 1 – Basic Data Understanding (Pandas)*
+# *Part 1 – Basic Data Understanding (Pandas)*
 
 
-#**Load the CSV file into a Pandas DataFrame.
+** Load the CSV file into a Pandas DataFrame.
 
 
 **Display the first 10 rows of the dataset.(df.head(10))
@@ -22,7 +22,7 @@
 **Display the most frequent value in the country column.
 
 
-#*Part 2 – EDA (Exploratory Data Analysis)*
+# *Part 2 – EDA (Exploratory Data Analysis)*
 
 
 **Plot a bar chart for the count of Movies vs TV Shows.
@@ -89,7 +89,7 @@ Movie    5185
 Name: count, dtype: int64
 
 
-#Part 3 – Statistics
+# *Part 3 – Statistics*
 
 
 **Calculate the mean, median, mode of release_year.
@@ -124,7 +124,7 @@ TV Show    TV-MA
 Name: rating, dtype: object
 
 
-#*Part 4 – Linear Algebra & NumPy*
+# *Part 4 – Linear Algebra & NumPy*
 
 **Create a NumPy array of (release_year).
 
@@ -156,7 +156,7 @@ OUTPUT:[1993,    0, 2021, ..., 2009, 2006, 2015], shape=(5332,)
 OUTPUT:[0.01356029 0.01375081 0.01375081 ... 0.01366916 0.01364875 0.01370998]
 
 
-#*Part 5 – Calculus*
+# *Part 5 – Calculus*
 
 
 **Assume a function:
@@ -168,7 +168,7 @@ OUTPUT:[0.01356029 0.01375081 0.01375081 ... 0.01366916 0.01364875 0.01370998]
  Find the derivative with respect to release_year.
 OUTPUT:is_movie + 1.0*release_year - 2000.0
 
-#*Part 6 – Feature Engineering*
+# *Part 6 – Feature Engineering*
 
 
 **Create content_age = 2025 - release_year.
@@ -186,7 +186,7 @@ OUTPUT:is_movie + 1.0*release_year - 2000.0
 **Rank titles into quartiles based on release_year.
 
 
-#*Part 7 – SQL Simulation in Pandas*
+# *Part 7 – SQL Simulation in Pandas*
 
 **Select all titles where type = 'Movie' and release_year > 2015.
 
@@ -203,7 +203,7 @@ OUTPUT:is_movie + 1.0*release_year - 2000.0
 **Count how many titles have “Drama” in their listed_in column.
 
 
-#*Part 8 – Insights*
+# *Part 8 – Insights*
 
 
 **Which country produces the most Netflix content?('United States')
